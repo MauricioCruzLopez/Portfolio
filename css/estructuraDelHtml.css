@@ -37,6 +37,12 @@ body{
 
 #section-carrusel{
     grid-area: section-carrusel;
+    margin: auto;
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 #main{

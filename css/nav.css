@@ -1,0 +1,41 @@
+#nav-nombrePropietario{
+    padding-left: 8px;
+}
+#nav-nombrePropietario>a{
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+}
+
+#nav-botonesDeNavegacion{
+    display: flex;
+    align-items: center;
+}
+#nav-botonesDeNavegacion>button{
+    height: 50%;
+    width: auto;
+
+    background-color:rgba(250, 235, 215, 0);
+    font-size: 24px;
+
+    border-radius: 5px 5px 0px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
+    border-bottom: 2px solid rgba(0, 170, 255, 0);
+}
+#nav-botonesDeNavegacion>button:hover{
+    border-bottom: 2px solid rgb(0, 170, 255);
+    cursor:pointer;
+    transition: all .1s;
+}
+#nav-botonesDeNavegacion>button:active{
+    background-color:#c7e4a3;
+}
+#nav-botonesDeNavegacion>button>a{
+    text-decoration: none;
+    color:black;
+}
+
