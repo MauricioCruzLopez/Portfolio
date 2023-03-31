@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
 
     <link rel="stylesheet" href="css/nomralize.css">
     <link rel="stylesheet" href="css/estructuraDelHtml.css">
+    <link rel="stylesheet" href="css/carrusel.css">
 
     <title>Porfolio</title>
 </head>
+
 <body>
     <header id="header">
         <nav id="nav">
@@ -22,15 +25,26 @@
                 <button>Contacto</button>
             </section>
         </nav>
-        <section id="carrusel">
-            <div id="carrusel-presentacion">
-                <h2>Mauricio Cruz</h2> 
-                <p>Soy desarrollador web</p>
-            </div>
-            <div id="carrusel-informacionDeContacto">
-                <h2>Información</h2>
-                <h2>método de contacto</h2>
-            </div>
+        <section id="section-carrusel">
+            <ul id="carrusel">
+                <li id="carrusel-presentacion">
+                    <h2>Mauricio Cruz</h2>
+                    <p>Soy desarrollador web</p>
+                </li>
+                <li id="carrusel-informacionDeContacto">
+                    <h2>Información</h2>
+                    <h2>método de contacto</h2>
+                </li>
+            </ul>
+           
+            <ul id="menu">
+                <li>
+                    <a href="#carrusel-presentacion">1</a>
+                </li>
+                <li>
+                    <a href="#carrusel-informacionDeContacto">2</a>
+                </li>
+            </ul>
         </section>
     </header>
     <main id="main">
@@ -47,4 +61,5 @@
         <h2>footer</h2>
     </footer>
 </body>
+
 </html>
