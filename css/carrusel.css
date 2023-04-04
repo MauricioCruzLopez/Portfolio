@@ -7,8 +7,14 @@
     padding: 30px;
     box-sizing: border-box;
     
-    margin:95px auto 0 auto;
+    margin:95px auto 0 auto; /* 95px es el margin que tiene para el heightNav + separaciónDelNavYElSection-carrusel */
     scroll-margin-top: 95px;
+}
+#carrusel-presentacion{
+    scroll-margin-top:125px ; /* paddingCarrusel + heightNav + separaciónDelNavYElSection-carrusel */
+}
+#carrusel-informacionDeContacto{
+    scroll-margin-top:125px ; /* paddingCarrusel + heightNav + separaciónDelNavYElSection-carrusel */
 }
 #section-carrusel>ul,li {
     padding: 0;
