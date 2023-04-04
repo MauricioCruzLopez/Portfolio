@@ -1,0 +1,11 @@
+#main-article>div{
+   background-color: green;
+   padding-bottom: 8px;
+}
+#main-article img{
+    width: 100%;
+
+}
+#main-article span{
+    margin-left: 8px;
+}
