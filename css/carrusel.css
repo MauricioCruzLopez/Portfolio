@@ -1,3 +1,15 @@
+#section-carrusel{
+    grid-area: section-carrusel;
+    background-color: white;
+    
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    
+    margin:95px auto 0 auto;
+    scroll-margin-top: 95px;
+}
 #section-carrusel>ul,li {
     padding: 0;
     margin: 0;
