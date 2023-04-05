@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/carrusel.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/main-article.css">
+    <link rel="stylesheet" href="css/formulario.css">
 
     <title>Porfolio</title>
 </head>
@@ -24,7 +25,7 @@
             <section id="nav-botonesDeNavegacion">
                 <button><a href="#section-carrusel">General</a></button>
                 <button><a href="#main">Desarrollo</a></button>
-                <button><a href="#contacto">Contacto</a></button>
+                <button><a href="#main-contacto">Contacto</a></button>
             </section>
         </nav>
         <section id="section-carrusel">
@@ -78,6 +79,15 @@
                 <img src="imagenes/tecnología.jpg" alt="imgTecnología">
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
+        </article>
+        <article id="main-contacto">
+            <form action="" id="main-contacto__formulario" method="POST">
+                <input type="text" placeholder="Nombre" name="nombre" class="datosDelFormulario" required>
+                <input type="text" placeholder="Asunto" name="asunto" class="datosDelFormulario" required>
+                <input type="email" placeholder="Email" name="email" class="datosDelFormulario" required>
+                <textarea placeholder="Mensaje" name="mensaje" class="datosDelFormulario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </article>
     </main>
     <footer id="footer">
