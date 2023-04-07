@@ -39,7 +39,7 @@
     height: 50%;
     width: auto;
 
-    background-color:rgba(250, 235, 215, 0);
+    background-color: rgba(0, 0, 0, 0);
     font-size: 24px;
 
     border-radius: 5px 5px 0px 0px;
@@ -51,7 +51,6 @@
     border-bottom: 2px solid rgba(0, 170, 255, 0);
 }
 #nav-botonesDeNavegacion>button:hover{
-    border-bottom: 2px solid rgb(0, 170, 255);
     cursor:pointer;
     transition: all .1s;
 }
@@ -62,4 +61,5 @@
     text-decoration: none;
     color:black;
 }
+
 
